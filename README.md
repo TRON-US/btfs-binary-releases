@@ -1,2 +1,2 @@
 # autoupdate-config
-A repo to save btfs autoupdate config.yaml file
+A repo to save autoupdate config.yaml file
