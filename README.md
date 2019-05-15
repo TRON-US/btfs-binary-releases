@@ -70,3 +70,14 @@ btfs.exe daemon
 
 
 
+## Supported OS
+
+| OS      | ARCH  |
+| ------- | ----- |
+| darwin  | amd64 |
+| darwin  | 386   |
+| linux   | amd64 |
+| linux   | 386   |
+| windows | amd64 |
+| windows | 386   |
+
