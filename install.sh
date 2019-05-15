@@ -51,9 +51,4 @@ mkdir ${HOME}/btfs
 cp btfs-${OS}-${ARCH} ${HOME}/btfs/btfs
 cp config_${OS}_${ARCH}.yaml ${HOME}/btfs/config.yaml
 
-
-PATH=${PATH}:${btfsPath}
-
-echo ${PATH}
-
-export ${PATH}
+echo "Install btfs success!"
