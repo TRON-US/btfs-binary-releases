@@ -3,19 +3,28 @@ This project provides all the binaries supported by btfs. See the attached opera
 
 
 
+## Supported OS
+
+| OS      | ARCH  | Download                                                     |
+| ------- | ----- | ------------------------------------------------------------ |
+| darwin  | amd64 | [darwin-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/darwin/amd64/btfs-darwin-amd64.tar) |
+| darwin  | 386   | [darwin-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/darwin/386/btfs-darwin-386.tar) |
+| linux   | amd64 | [linux-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/linux/amd64/btfs-linux-amd64.tar) |
+| linux   | 386   | [linux-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/linux/386/btfs-linux-386.tar) |
+| windows | amd64 | [windows-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/amd64/btfs-windows-amd64.tar) |
+| windows | 386   | [window-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/386/btfs-windows-386.tar) |
+
+
+
 ## Mac or Linux setup
 
-1. Download this repo.
-
-```shell
-cd ${HOME}
-git clone https://github.com/TRON-US/btfs-binary-releases.git
-```
+1. Download the tarball of your operating system's corresponding version via the link above.
 
 2. Make sure you have permission to delete files in your HOME directory.
 3. Initialize btfs path.
 
 ```shell
+wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/install.sh
 bash install.sh -o (your operating system) -a (your arch)
 e.g.
 bash install.sh -o darwin -a amd64
@@ -47,7 +56,7 @@ Now btfs on mac or linux is already installed.
 
 ## Windows setup
 
-1. Download this repo.
+1. Download the tarball of your operating system's corresponding version via the link above.
 2. Make sure you have permission to delete files in btfs project directory.
 3. Initialize btfs path.
    1. Create a new btfs folder under the D drive.
@@ -67,17 +76,3 @@ btfs.exe init
 ```
 btfs.exe daemon
 ```
-
-
-
-## Supported OS
-
-| OS      | ARCH  |
-| ------- | ----- |
-| darwin  | amd64 |
-| darwin  | 386   |
-| linux   | amd64 |
-| linux   | 386   |
-| windows | amd64 |
-| windows | 386   |
-
