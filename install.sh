@@ -48,9 +48,9 @@ if [[ -d "${btfsPath}" ]];then
 fi
 
 mkdir ${HOME}/btfs
-cd btfs
+cd ${HOME}/btfs
 mkdir bin
-cd ..
+cd -
 cp btfs-${OS}-${ARCH} ${HOME}/btfs/bin/btfs
 cp config_${OS}_${ARCH}.yaml ${HOME}/btfs/bin/config.yaml
 
