@@ -48,7 +48,12 @@ if [[ -d "${btfsPath}" ]];then
 fi
 
 mkdir ${HOME}/btfs
-cp btfs-${OS}-${ARCH} ${HOME}/btfs/btfs
-cp config_${OS}_${ARCH}.yaml ${HOME}/btfs/config.yaml
+cd btfs
+mkdir bin
+cd ..
+cp btfs-${OS}-${ARCH} ${HOME}/btfs/bin/btfs
+cp config_${OS}_${ARCH}.yaml ${HOME}/btfs/bin/config.yaml
+
+export PATH=${PATH}:${HOME}/btfs/bin
 
 echo "Install btfs success!"
