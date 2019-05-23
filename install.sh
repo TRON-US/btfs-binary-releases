@@ -37,6 +37,12 @@ if [[ "${OS}" = "DEFAULT" ]]; then
     exit
 fi
 
+cd ${HOME}
+
+wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/${OS}/${ARCH}/btfs-${OS}-${ARCH}.tar
+tar -xvf btfs-${OS}-${ARCH}.tar
+rm btfs-${OS}-${ARCH}.tar
+
 btfsPath=${HOME}/btfs
 
 echo ${btfsPath}
@@ -51,8 +57,8 @@ mkdir ${HOME}/btfs
 cd ${HOME}/btfs
 mkdir bin
 cd -
-cp btfs-${OS}-${ARCH} ${HOME}/btfs/bin/btfs
-cp config_${OS}_${ARCH}.yaml ${HOME}/btfs/bin/config.yaml
+mv btfs-${OS}-${ARCH} ${HOME}/btfs/bin/btfs
+mv config_${OS}_${ARCH}.yaml ${HOME}/btfs/bin/config.yaml
 
 export PATH=${PATH}:${HOME}/btfs/bin
 

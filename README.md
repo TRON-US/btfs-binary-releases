@@ -18,31 +18,25 @@ This project provides all the binaries supported by btfs. See the attached opera
 
 ## Mac or Linux setup
 
-1. Download the tarball of your operating system's corresponding version via the link above.
-
-2. Make sure you have permission to delete files in your HOME directory.
-3. Initialize btfs path.
-
+1. Get  `install.sh` from GitHub.
 ```shell
 wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/install.sh
-bash install.sh -o (your operating system) -a (your arch)
-e.g.
+```
+
+2. Running script by your operating system and arch.
+
+```shell
+# bash install.sh -o (your operating system) -a (your arch)
 bash install.sh -o darwin -a amd64
 ```
 
-4. Add `${HOME}/btfs` to your path environment variable.
-
-```shell
-export PATH=${PATH}:${HOME}/btfs
-```
-
-5. Init btfs.
+3. Init btfs.
 
 ```shell
 btfs init
 ```
 
-6. Open the daemon.
+4. Open the daemon.
 
 ```shell
 btfs daemon
