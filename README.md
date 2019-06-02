@@ -30,13 +30,19 @@ wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/insta
 bash install.sh -o darwin -a amd64
 ```
 
-3. Init btfs.
+3. Add btfs path to environment.
+
+```shell
+export PATH=${PATH}:${HOME}/btfs/bin
+```
+
+4. Init btfs.
 
 ```shell
 btfs init
 ```
 
-4. Open the daemon.
+5. Open the daemon.
 
 ```shell
 btfs daemon
