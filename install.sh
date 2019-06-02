@@ -60,6 +60,4 @@ cd -
 mv btfs-${OS}-${ARCH} ${HOME}/btfs/bin/btfs
 mv config_${OS}_${ARCH}.yaml ${HOME}/btfs/bin/config.yaml
 
-export PATH=${PATH}:${HOME}/btfs/bin
-
 echo "Install btfs success!"
