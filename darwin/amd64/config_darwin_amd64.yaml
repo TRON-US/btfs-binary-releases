@@ -1,6 +1,6 @@
-version: 0.0.3
-md5: 0345ea00771abeb6fa4b10989e7b8cb2
+version: 0.0.4
+md5: e1b904269196c59846457de66fc082ee
 autoupdateFlg: true
-sleepTimeSeconds: 30
+sleepTimeSeconds: 3600
 beginNumber: 0
 endNumber: 100
