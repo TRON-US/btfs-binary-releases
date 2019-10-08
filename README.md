@@ -11,8 +11,8 @@ This project provides all the binaries supported by btfs. See the attached opera
 | darwin  | 386   | [darwin-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/darwin/386/btfs-darwin-386.tar) |
 | linux   | amd64 | [linux-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/linux/amd64/btfs-linux-amd64.tar) |
 | linux   | 386   | [linux-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/linux/386/btfs-linux-386.tar) |
-| windows | amd64 | [windows-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/amd64/btfs-windows-amd64.tar) |
-| windows | 386   | [window-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/386/btfs-windows-386.tar) |
+| windows | amd64 | [windows-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/amd64/btfs-windows-amd64.exe.zip) |
+| windows | 386   | [window-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/386/btfs-windows-386.exe.zip) |
 
 
 
@@ -56,13 +56,13 @@ Now btfs on mac or linux is already installed.
 
 ## Windows setup
 
-1. Download the tarball of your operating system's corresponding version via the link above.
+1. Download the compressed file of your operating system's corresponding version via the link above.
 2. Make sure you have permission to delete files in btfs project directory.
 3. Initialize btfs path.
    1. Create a new btfs folder under the D drive.
    2. Go to the btfs folder.
-   3. Copy your computer version of the btfs binary and config to the btfs folder.
-   4. Rename the btfs binary to btfs.exe.
+   3. Copy your computer version of the btfs binary and config file to the btfs folder.
+   4. Unzip the btfs binary and rename btfs.exe.
    5. Rename the btfs config to config.yaml
    6. Add the btfs folder to the environment variable.
 4. Init btfs.

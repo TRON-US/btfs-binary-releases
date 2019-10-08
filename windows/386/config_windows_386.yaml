@@ -1,5 +1,5 @@
-version: 0.2.0
-md5: 6ab2ad1eb73a8a1de5e2081ca5d9b8d8
+version: 0.2.1
+md5: bd8dbbc699e8e519a345af8db0bf8d4d
 autoupdateFlg: true
 sleepTimeSeconds: 86400
 beginNumber: 0
