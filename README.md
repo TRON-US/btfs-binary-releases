@@ -11,8 +11,8 @@ This project provides all the binaries supported by btfs. See the attached opera
 | darwin  | 386   | [darwin-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/darwin/386/btfs-darwin-386.tar) |
 | linux   | amd64 | [linux-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/linux/amd64/btfs-linux-amd64.tar) |
 | linux   | 386   | [linux-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/linux/386/btfs-linux-386.tar) |
-| windows | amd64 | [windows-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/amd64/btfs-windows-amd64.exe.zip) |
-| windows | 386   | [window-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/386/btfs-windows-386.exe.zip) |
+| windows | amd64 | [windows-amd64](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/amd64/btfs-windows-amd64.zip) |
+| windows | 386   | [window-386](https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/windows/386/btfs-windows-386.zip) |
 
 
 
