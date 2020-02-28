@@ -39,7 +39,7 @@ fi
 
 cd ${HOME}
 
-wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/${OS}/${ARCH}/btfs-${OS}-${ARCH}.tar
+wget https://github.com/TRON-US/go-btfs/releases/latest/download/btfs-${OS}-${ARCH}.tar
 tar -xvf btfs-${OS}-${ARCH}.tar
 rm btfs-${OS}-${ARCH}.tar
 
