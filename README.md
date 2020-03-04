@@ -1,7 +1,10 @@
 # BTFS binary releases
-This project provides all the binaries supported by btfs. See the attached operating system for detailed support.
+NOTE:
+The latest go-btfs binary executables going forward can be found in https://github.com/TRON-US/go-btfs/releases/latest
+This repo will contain only contain legacy builds 1.0.2-beta and older and will not be updated with go-btfs binaries
 
-
+The install.sh script has been updated to pull from the new location.
+The Download links below have been updated to pull from the new location.
 
 ## Supported OS
 
