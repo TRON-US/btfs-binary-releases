@@ -15,8 +15,8 @@ while [[ -n "$1" ]]; do
             ;;
         -a)
             ARCH="$2"
-            if [[ "${ARCH}" != "amd64" && "${ARCH}" != "386" ]]; then
-                echo "The arch you entered isn't supported, please correct and retry. Supported: amd64, 386"
+            if [[ "${ARCH}" != "amd64" && "${ARCH}" != "386" && "${ARCH}" != "arm64" && "${ARCH}" != "arm" ]]; then
+                echo "The arch you entered isn't supported, please correct and retry. Supported: amd64, 386, arm64, arm"
                 exit 1
             fi
             shift 2
@@ -30,12 +30,12 @@ while [[ -n "$1" ]]; do
 done
 
 if [[ "${ARCH}" = "DEFAULT" ]]; then
-    echo "Please enter operating system. Supported: darwin, linux. darwins means macOS."
+    echo "Please enter operating system. Supported: darwin, linux. darwin means macOS."
     exit 1
 fi
 
 if [[ "${OS}" = "DEFAULT" ]]; then
-    echo "Please enter arch. Supported: amd64, 386"
+    echo "Please enter arch. Supported: amd64, 386, arm64, arm"
     exit 1
 fi
 
